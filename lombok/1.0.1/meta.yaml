@@ -1,0 +1,22 @@
+apiVersion: v2
+publisher: ms-vscode
+name: lombok
+version: 1.0.1
+type: VS Code extension
+displayName: Lombok
+title: Lombok annotations support
+description: This extension adds Lombok markup support 
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/GabrielBB/vscode-lombok
+category: Language
+firstPublicationDate: '2019-09-19'
+spec:
+  containers:
+    - image: "quay.io/eclipse/che-sidecar-java:8-0cfbacb"
+      name: vscode-lombok
+      memoryLimit: '1500Mi'
+      volumes:
+      - mountPath: "/home/theia/.m2"
+        name: m2
+  extensions:
+    - https://raw.githubusercontent.com/gattytto/envfiles/master/GabrielBB.vscode-lombok-1.0.1.vsix

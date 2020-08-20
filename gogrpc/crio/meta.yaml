@@ -1,0 +1,28 @@
+apiVersion: v2
+publisher: ms-vscode
+name: gogrpc
+version: crio
+type: VS Code extension
+displayName: Go-CRI-O
+title: Rich Go language support
+description: This extension adds rich language support for the Go with crio includes sources
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/Microsoft/vscode-go.git
+category: Language
+firstPublicationDate: '2019-09-19'
+spec:
+  containers:
+    - image: "quay.io/gattytto-ct/che-sidecar-golang:latest"
+      name: vscode-go
+      memoryLimit: '1500Mi'
+      env:
+      - name: GOPATH
+        value: /go:$(CHE_PROJECTS_ROOT)
+      - name: GOPROXY
+        value: 'direct' 
+      - name: GOSUMDB
+        value: 'off'
+      - name: GONOSUMDB
+        value: 'true'
+  extensions:
+    - https://raw.githubusercontent.com/gattytto/envfiles/master/gonightly20207820.vsix

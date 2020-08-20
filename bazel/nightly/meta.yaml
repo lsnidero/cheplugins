@@ -1,0 +1,23 @@
+
+apiVersion: v2
+publisher: ms-vscode
+name: bazel
+version: nightly
+type: VS Code extension
+displayName: Bazel
+title: Starlark files and bazel build support
+description: This extension adds rich language support for Starlark
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/bazelbuild/vscode-bazel
+category: Language
+firstPublicationDate: '2019-09-19'
+spec:
+  containers:
+    - image: "quay.io/eclipse/che-sidecar-bazel:nightly"
+      name: vscode-bazel
+      memoryLimit: '2Gi'
+      volumes:
+      - mountPath: "/home/theia/.cache/bazel"
+        name: bazelcache
+  extensions:
+    - https://github.com/bazelbuild/vscode-bazel/releases/download/0.3.0/vscode-bazel-0.3.0.vsix
