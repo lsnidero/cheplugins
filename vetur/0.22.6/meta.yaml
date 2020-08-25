@@ -16,5 +16,4 @@ spec:
       name: vetur
       memoryLimit: '512Mi'
   extensions:
-    - https://github.com/gattytto/che-plugin-registry/raw/gopos/v3/plugins/ms-vscode/vetur/html-lang-feat-1.24.2.vsix
-    - https://github.com/vuejs/vetur/releases/download/v0.22.6/vetur-0.22.6.vsix
+    - https://github.com/vuejs/vetur/releases/download/v0.26.1/vetur-0.26.1.vsix
