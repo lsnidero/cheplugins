@@ -1,0 +1,20 @@
+apiVersion: v2
+publisher: Dart-Code
+name: flutter
+version: 3.13.2
+type: VS Code extension
+displayName: Dart
+title: Google's Dart language support
+description: This extension adds rich language support for the Dart syntax
+icon: https://dart.dev/assets/shared/dart/logo+text/horizontal/white-e71fb382ad5229792cc704b3ee7a88f8013e986d6e34f0956d89c453b454d0a5.svg
+repository: https://github.com/Dart-Code/Dart-Code
+category: Language
+firstPublicationDate: '2020-08-26'
+spec:
+  containers:
+    - image: "quay.io/gattytto/che-sidecar-flutter:latest"
+      name: vscode-flutter
+      memoryLimit: '2Gi'
+  extensions:
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Dart-Code/vsextensions/flutter/3.13.2/vspackage
+    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-yaml/vscode-yaml-0.8.0.vsix
