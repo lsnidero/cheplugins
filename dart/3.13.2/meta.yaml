@@ -6,7 +6,7 @@ type: VS Code extension
 displayName: Dart
 title: Google's Dart language support
 description: This extension adds rich language support for the Dart syntax
-icon: https://github.com/zxh0/vscode-proto3/raw/master/images/vscode_extension_icon.png
+icon: https://dart.dev/assets/shared/dart/logo+text/horizontal/white-e71fb382ad5229792cc704b3ee7a88f8013e986d6e34f0956d89c453b454d0a5.svg
 repository: https://github.com/Dart-Code/Dart-Code
 category: Language
 firstPublicationDate: '2020-08-26'
