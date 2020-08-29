@@ -16,5 +16,6 @@ spec:
       name: vscode-flutter
       memoryLimit: '2Gi'
   extensions:
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Dart-Code/vsextensions/flutter/3.13.2/vspackage
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-yaml/vscode-yaml-0.8.0.vsix
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Dart-Code/vsextensions/dart-code/3.13.2/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Dart-Code/vsextensions/flutter/3.13.2/vspackage
