@@ -16,5 +16,5 @@ spec:
       name: vscode-dart
       memoryLimit: '2Gi'
   extensions:
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Dart-Code/vsextensions/dart-code/3.13.2/vspackage
+    - https://github.com/Dart-Code/Dart-Code/releases/download/v3.13.2/dart-code-3.13.2.vsix
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-yaml/vscode-yaml-0.8.0.vsix
