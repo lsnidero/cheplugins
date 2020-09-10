@@ -17,5 +17,5 @@ spec:
       memoryLimit: '2Gi'
   extensions:
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-yaml/vscode-yaml-0.8.0.vsix
-    - https://github.com/gattytto/envfiles/raw/master/dart-code-3.15.0-dev.vsix
+    - https://github.com/gattytto/envfiles/raw/master/dart-code-3.15.0-dev-realpathSync.vsix
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Dart-Code/vsextensions/flutter/3.13.2/vspackage
