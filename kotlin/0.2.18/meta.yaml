@@ -13,7 +13,7 @@ spec:
   containers:
     - image: "quay.io/eclipse/che-sidecar-java:11-7bd8c8c"
       name: vscode-quarkus-kotlin
-      memoryLimit: "1500Mi"
+      memoryLimit: "2500Mi"
       volumes:
       - mountPath: "/home/theia/.m2"
         name: m2
