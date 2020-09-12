@@ -15,22 +15,10 @@ spec:
       name: vscode-quarkus-kotlin
       memoryLimit: "2500Mi"
       env:
-        - value: /home/gradle/.gradle
+        - value: /home/theia/.gradle
           name: GRADLE_USER_HOME
-        - value: /home/gradle
+        - value: /home/theia
           name: HOME
-        - value: >-
-            -XX:MaxRAMPercentage=50 -XX:+UseParallelGC -XX:MinHeapFreeRatio=10
-            -XX:MaxHeapFreeRatio=20 -XX:GCTimeRatio=4
-            -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true
-            -Xms20m -Djava.security.egd=file:/dev/./urandom
-          name: JAVA_OPTS
-        - value: >-
-          -XX:MaxRAMPercentage=50 -XX:+UseParallelGC -XX:MinHeapFreeRatio=10
-          -XX:MaxHeapFreeRatio=20 -XX:GCTimeRatio=4
-          -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true
-          -Xms20m -Djava.security.egd=file:/dev/./urandom
-          name: JAVA_TOOL_OPTIONS
       volumes:
       - mountPath: "/home/theia/.m2"
         name: m2
