@@ -15,9 +15,9 @@ spec:
       name: vscode-quarkus-kotlin
       memoryLimit: "2500Mi"
       env:
-      - value: /home/theia/.gradle
+      - value: "/home/theia/.gradle"
         name: GRADLE_USER_HOME
-      - value: /home/theia
+      - value: "/home/theia"
         name: HOME
       volumes:
       - mountPath: "/home/theia/.m2"
