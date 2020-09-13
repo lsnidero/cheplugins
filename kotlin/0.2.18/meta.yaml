@@ -13,7 +13,7 @@ spec:
   containers:
     - image: "quay.io/eclipse/che-sidecar-java:11-7bd8c8c"
       name: vscode-quarkus-kotlin
-      memoryLimit: "2500Mi"
+      memoryLimit: "3800Mi"
       env:
       - value: "/home/theia/.gradle"
         name: GRADLE_USER_HOME
