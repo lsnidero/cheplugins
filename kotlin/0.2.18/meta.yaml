@@ -11,7 +11,7 @@ repository: https://github.com/fwcd/vscode-kotlin/
 category: Language
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-java:11-7bd8c8c"
+    - image: "quay.io/gattytto/che-sidecar-java:11-gradle"
       name: vscode-quarkus-kotlin
       memoryLimit: "3800Mi"
       env:
