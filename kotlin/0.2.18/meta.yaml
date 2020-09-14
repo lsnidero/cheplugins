@@ -24,5 +24,7 @@ spec:
         name: m2
       - mountPath: "/home/theia/home/theia"
         name: vscode-theia-workaround
+      - mountPath: "/home/theia/.gradle"
+        name: gradle-mount
   extensions:
     - https://github.com/fwcd/vscode-kotlin/releases/download/0.2.18/kotlin-0.2.18.vsix
