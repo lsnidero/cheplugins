@@ -25,4 +25,4 @@ spec:
       - mountPath: "/home/theia/home/theia"
         name: vscode-theia-workaround
   extensions:
-    - https://raw.githubusercontent.com/gattytto/envfiles/master/kotlin-0.2.18.vsix
+    - https://github.com/fwcd/vscode-kotlin/releases/download/0.2.18/kotlin-0.2.18.vsix
