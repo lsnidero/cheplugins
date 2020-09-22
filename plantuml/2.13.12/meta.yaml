@@ -15,5 +15,8 @@ spec:
     - image: "quay.io/eclipse/che-sidecar-plantuml:2.13.13-ee2987c"
       name: vscode-plantuml
       memoryLimit: '512Mi'
+      volumes:
+        - mountPath: "/tmp/vscode-unpacked"
+          name: "previewassets"
   extensions:
     - https://github.com/gattytto/vscode-plantuml/releases/download/2.13.13/plantuml-2.13.13.vsix
