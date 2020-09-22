@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2020-09-22'
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-plantuml:2.13.13-b5cb964"
+    - image: "quay.io/eclipse/che-sidecar-plantuml:2.13.13-ee2987c"
       name: vscode-plantuml
       memoryLimit: '512Mi'
   extensions:
