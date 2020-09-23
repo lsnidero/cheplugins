@@ -13,7 +13,7 @@ category: Language
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-bazel:nightly"
+    - image: "quay.io/gattytto/che-sidecar-bazel:latestjdk"
       name: vscode-bazel
       memoryLimit: '2Gi'
       volumes:
