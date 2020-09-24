@@ -16,8 +16,5 @@ spec:
     - image: "quay.io/gattytto/che-sidecar-bazel:latestjdk"
       name: vscode-bazel
       memoryLimit: '2Gi'
-      volumes:
-      - mountPath: "/home/theia/.cache/bazel"
-        name: bazelcache
   extensions:
     - https://github.com/bazelbuild/vscode-bazel/releases/download/0.3.0/vscode-bazel-0.3.0.vsix
