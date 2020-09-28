@@ -14,6 +14,7 @@ spec:
   containers:
     - image: "quay.io/gattytto/che-sidecar-haskell:latest"
       name: vscode-haskell
+      memoryLimit: 2Gi
       volumes:
       - mountPath: "/home/theia/home/theia"
         name: vscode-theia-workaround
