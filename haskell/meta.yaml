@@ -17,6 +17,8 @@ spec:
       volumes:
       - mountPath: "/home/theia/home/theia"
         name: vscode-theia-workaround
+      - mountPath: "/home/theia/.stack"
+        name: haskell_stack
   extensions:
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/justusadam/vsextensions/language-haskell/3.3.0/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/haskell/vsextensions/haskell/1.1.0/vspackage
