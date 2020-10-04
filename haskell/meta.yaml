@@ -14,7 +14,7 @@ spec:
   containers:
     - image: "quay.io/gattytto/che-sidecar-haskell:latest"
       name: vscode-haskell
-      memoryLimit: 5Gi
+      memoryLimit: 2Gi
   extensions:
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/justusadam/vsextensions/language-haskell/3.3.0/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/haskell/vsextensions/haskell/1.1.0/vspackage
