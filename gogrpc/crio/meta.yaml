@@ -12,17 +12,8 @@ category: Language
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
-    - image: "quay.io/gattytto-ct/che-sidecar-golang:latest"
+    - image: "quay.io/gattytto/che-go:latest"
       name: vscode-go
       memoryLimit: '1500Mi'
-      env:
-      - name: GOPATH
-        value: /go:$(CHE_PROJECTS_ROOT)
-      - name: GOPROXY
-        value: 'direct' 
-      - name: GOSUMDB
-        value: 'off'
-      - name: GONOSUMDB
-        value: 'true'
   extensions:
     - https://github.com/golang/vscode-go/releases/download/v0.16.1/go-0.16.1.vsix
