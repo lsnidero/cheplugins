@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2020-08-26'
 spec:
   containers:
-    - image: "quay.io/gattytto/che-sidecar-haskell:latest"
+    - image: "quay.io/gattytto/haskell2:latest"
       name: vscode-haskell
       memoryLimit: 2500Mi
   extensions:
