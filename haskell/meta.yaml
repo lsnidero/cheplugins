@@ -18,3 +18,4 @@ spec:
   extensions:
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/justusadam/vsextensions/language-haskell/3.3.0/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/haskell/vsextensions/haskell/1.1.0/vspackage
+    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-yaml/vscode-yaml-0.8.0.vsix
