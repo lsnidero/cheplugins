@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2020-08-26'
 spec:
   containers:
-    - image: "quay.io/gattytto/haskell2:ghci8.8.4-dap"
+    - image: "gattytto/haskell-sidecar:ghci8.8.4-dap"
       name: vscode-haskell
       memoryLimit: 3500Mi
   extensions:
