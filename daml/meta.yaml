@@ -1,0 +1,20 @@
+apiVersion: v2
+publisher: digital-asset
+name: daml
+version: 1.6.0
+type: VS Code extension
+displayName: DAML
+title: DAML language support
+description: This extension adds rich language support for the DAML syntax
+icon: https://docs.daml.com/_static/images/DAML_Logo_Blue.svg
+repository: https://github.com/digital-asset/daml
+category: Language
+firstPublicationDate: '2020-10-19'
+spec:
+  containers:
+    - image: "quay.io/gattytto/che-sidecar-daml:latest"
+      name: vscode-daml
+      memoryLimit: 2500Mi
+  extensions:
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/EFanZh/vsextensions/graphviz-preview/1.4.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/DigitalAssetHoldingsLLC/vsextensions/daml/1.6.0/vspackage
