@@ -14,7 +14,7 @@ spec:
   containers:
     - image: "quay.io/gattytto/che-sidecar-daml:latest"
       name: vscode-daml
-      memoryLimit: 2500Mi
+      memoryLimit: 2Gi
   extensions:
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/EFanZh/vsextensions/graphviz-preview/1.4.0/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/DigitalAssetHoldingsLLC/vsextensions/daml/1.6.0/vspackage
