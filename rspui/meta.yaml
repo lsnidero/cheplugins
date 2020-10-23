@@ -1,0 +1,24 @@
+apiVersion: v2
+publisher: ms-vscode
+name: RSPUI
+version: 1.1
+type: VS Code extension
+displayName: Support for Remote Server Protocol and redhat premium/community server connector
+title: RSP UI with RH Server Connector
+description: all you need to use red hat server connector from your browser
+icon: https://raw.githubusercontent.com/redhat-developer/vscode-java/v0.63.0/icons/icon128.png
+repository: https://github.com/user/repo
+category: Language
+firstPublicationDate: "2020-06-11"
+spec:
+ containers:
+   - image: "quay.io/eclipse/che-sidecar-java:8"
+     name: vscode-rspui
+     memoryLimit: "2Gi"
+     volumes:
+     - mountPath: "/home/theia/.m2"
+       name: m2
+ extensions:
+   - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-rsp-ui/0.23.5/vspackage
+   - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-server-connector/0.23.5/vspackage
+   - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-community-server-connector/0.23.7/vspackage
