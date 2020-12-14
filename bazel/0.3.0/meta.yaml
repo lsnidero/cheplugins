@@ -12,11 +12,11 @@ category: Language
 firstPublicationDate: '2018-11-28'
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-bazel:3.2.0-e352e6b"
+    - image: "quay.io/eclipse/che-plugin-sidecar:bazel-f15c5d6"
       name: vscode-bazel
       memoryLimit: '2Gi'
       volumes:
       - mountPath: "/home/theia/.cache/bazel"
         name: bazelcache
   extensions:
-    - https://github.com/bazelbuild/vscode-bazel/releases/download/0.3.0/vscode-bazel-0.3.0.vsix
+    - https://github.com/bazelbuild/vscode-bazel/releases/download/0.4.0/vscode-bazel-0.4.0.vsix
