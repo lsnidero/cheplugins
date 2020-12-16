@@ -1,0 +1,27 @@
+apiVersion: v2
+publisher: cool2k
+name: vscode-lombok
+version: latest
+type: VS Code extension
+displayName: Lombok Annotations Support for VS Codium
+title: Lombok Annotations Support for VS Codium
+description: A lightweight extension to support Lombok annotations processing in Visual
+  Studio Code (published to open-vsx by cool2k)
+icon: /v3/images/cool2k-vscode-lombok-icon.png
+category: Other
+repository: https://github.com/GabrielBB/vscode-lombok.git
+firstPublicationDate: '2020-07-01'
+spec:
+  containers:
+    - image: quay.io/eclipse/che-plugin-sidecar:java-b8f0528
+      name: vscode-lombok
+      volumes:
+        - name: m2
+          mountPath: /home/theia/.m2
+      memoryLimit: 2Gi
+  extensions:
+    - https://open-vsx.org/api/cool2k/vscode-lombok/1.0.2/file/cool2k.vscode-lombok-1.0.2.vsix
+    - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.69.0-2547.vsix
+    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.26.0.vsix
+    - https://open-vsx.org/api/vscjava/vscode-java-test/0.24.0/file/vscjava.vscode-java-test-0.24.0.vsix
+latestUpdateDate: "2020-12-16"
