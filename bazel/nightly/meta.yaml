@@ -13,8 +13,8 @@ category: Language
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
-    - image: "quay.io/gattytto/che-sidecar-bazel:latestjdk"
+    - image: "quay.io/gattytto/che-sidecar-bazel:latest"
       name: vscode-bazel
       memoryLimit: '2Gi'
   extensions:
-    - https://github.com/bazelbuild/vscode-bazel/releases/download/0.3.0/vscode-bazel-0.3.0.vsix
+    - https://github.com/bazelbuild/vscode-bazel/releases/download/0.4.0/vscode-bazel-0.4.0.vsix
