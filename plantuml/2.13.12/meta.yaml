@@ -20,3 +20,4 @@ spec:
           name: "previewassets"
   extensions:
     - https://github.com/gattytto/vscode-plantuml/releases/download/2.13.13/plantuml-2.13.13.vsix
+    - https://github.com/gattytto/envfiles/raw/master/jebbs.plantuml-2.13.12.vsix
