@@ -19,5 +19,4 @@ spec:
         - mountPath: "/tmp/vscode-unpacked"
           name: "previewassets"
   extensions:
-    - https://github.com/gattytto/vscode-plantuml/releases/download/2.13.13/plantuml-2.13.13.vsix
-    - https://github.com/gattytto/envfiles/raw/master/jebbs.plantuml-2.13.12.vsix
+    - https://open-vsx.org/api/jebbs/plantuml/2.13.12/file/jebbs.plantuml-2.13.12.vsix
