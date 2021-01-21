@@ -14,6 +14,6 @@ spec:
   containers:
     - image: "quay.io/gattytto/che-sidecar-bazel:latest"
       name: vscode-bazel
-      memoryLimit: '2Gi'
+      memoryLimit: '3Gi'
   extensions:
     - https://github.com/bazelbuild/vscode-bazel/releases/download/0.4.0/vscode-bazel-0.4.0.vsix
