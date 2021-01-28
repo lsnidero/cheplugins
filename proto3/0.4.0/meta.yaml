@@ -17,3 +17,5 @@ spec:
       memoryLimit: '256Mi'
   extensions:
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/zxh404/vsextensions/vscode-proto3/0.5.3/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/bufbuild/vsextensions/vscode-buf/0.1.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/Plex/vsextensions/vscode-protolint/0.5.1/vspackage
