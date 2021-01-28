@@ -14,7 +14,7 @@ spec:
   containers:
     - image: "quay.io/gattytto/che-sidecar-proto3:latest"
       name: vscode-proto3
-      memoryLimit: '256Mi'
+      memoryLimit: '512Mi'
   extensions:
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/zxh404/vsextensions/vscode-proto3/0.5.3/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/bufbuild/vsextensions/vscode-buf/0.1.0/vspackage
