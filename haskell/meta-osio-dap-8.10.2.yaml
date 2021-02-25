@@ -17,7 +17,7 @@ spec:
       memoryLimit: 1500Mi
   extensions:
     - https://open-vsx.org/api/justusadam/language-haskell/3.3.0/file/justusadam.language-haskell-3.3.0.vsix
-    - https://open-vsx.org/api/haskell/haskell/1.1.0/file/haskell.haskell-1.1.0.vsix
+    - https://open-vsx.org/api/haskell/haskell/1.2.0/file/haskell.haskell-1.2.0.vsix
     - https://open-vsx.org/api/gattytto/phoityne-vscode/0.0.29/file/gattytto.phoityne-vscode-0.0.29.vsix
 
     
