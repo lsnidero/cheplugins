@@ -19,7 +19,7 @@ spec:
       - mountPath: "/home/theia/.kube"
         name: kube
   extensions:
-    - https://github.com/redhat-developer/vscode-yaml/releases/download/0.7.2/redhat.vscode-yaml-0.7.2.vsix
-    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-kubernetes-tools/vscode-kubernetes-tools-1.1.0.vsix
-    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-tekton/vscode-tekton-pipelines-0.1.0.vsix
+    - https://github.com/redhat-developer/vscode-yaml/releases/download/0.15.0/redhat.vscode-yaml-0.15.0.vsix
+    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-kubernetes-tools/vscode-kubernetes-tools-1.2.1.vsix
+    - https://open-vsx.org/api/redhat/vscode-tekton-pipelines/0.11.1/file/redhat.vscode-tekton-pipelines-0.11.1.vsix
     
