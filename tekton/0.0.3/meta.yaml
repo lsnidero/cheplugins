@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
-    - image: "quay.io/che-sidecar-tekton:latest"
+    - image: "quay.io/gattytto/che-sidecar-tekton:latest"
       name: vscode-tekton
       memoryLimit: '384Mi'
       volumes:
