@@ -16,4 +16,4 @@ spec:
       name: vscode-go
       memoryLimit: '1500Mi'
   extensions:
-    - https://github.com/golang/vscode-go/releases/download/v0.16.1/go-0.16.1.vsix
+    - https://github.com/golang/vscode-go/releases/download/v0.22.1/go-0.22.1.vsix
