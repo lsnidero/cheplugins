@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
-    - image: "quay.io/gattytto/che-go:latest"
+    - image: "quay.io/gattytto/che-sidecar-go:latest"
       name: vscode-go
       memoryLimit: '1500Mi'
   extensions:
