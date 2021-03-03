@@ -16,4 +16,4 @@ spec:
       name: vscode-go
       memoryLimit: '1500Mi'
   extensions:
-    - https://open-vsx.org/api/gattytto/go/0.23.8-dev/file/gattytto.go-0.23.8-dev.vsix
+    - https://open-vsx.org/api/gattytto/go/0.23.9-dev/file/gattytto.go-0.23.9-dev.vsix
