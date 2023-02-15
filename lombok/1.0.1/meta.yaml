@@ -19,4 +19,4 @@ spec:
       - mountPath: "/home/theia/.m2"
         name: m2
   extensions:
-    - https://open-vsx.org/api/cool2k/vscode-lombok/1.0.2/file/cool2k.vscode-lombok-1.0.2.vsix
+    - https://open-vsx.org/api/GabrielBB/vscode-lombok/1.0.1/file/GabrielBB.vscode-lombok-1.0.1.vsix
